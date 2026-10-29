@@ -1,0 +1,18 @@
+# Rahasia & data pribadi: jangan pernah di-commit
+config.ini
+backups/*
+!backups/.gitkeep
+*.sql.gz
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editor & alat
+.claude/
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
